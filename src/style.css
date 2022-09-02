@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #7f5283;
+  --secondary-color: #a6d1e6;
+}
+
+@font-face {
+  font-family: silkscreen;
+  src: url(/src/Silkscreen-Regular.ttf);
+}
+
+.icon {
+  max-width: 100px;
+}
+
+h1 {
+  font-family: silkscreen;
+  font-size: 55px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+img {
+  max-height: 500px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.contact-p {
+  text-align: center;
+}
